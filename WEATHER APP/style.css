@@ -178,5 +178,9 @@ input::placeholder{
         border-radius: 0;
         
     }
+    .search{
+        width: 50vw;
+    }
+
    
 }
