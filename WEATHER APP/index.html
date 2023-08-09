@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WEATHER</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <img src="images/magnifying-glass.png">
+            <form id="form">
+                <input id="city-name" type="text" autocomplete="off" placeholder="Enter city name..." spellcheck="false">
+            </form>
+        </div>
+
+
+        <div class="weather-info">
+            <h1 class="found" id="city"></h1>
+            <h3 class="found" id="date"></h3>
+            <h2 class="found" id="weather"></h2>
+            <img class="found not-found" id="weather-img" src="images/cloud.png" >
+            <h1 class="found not-found" id="temp"></h1>
+            
+        </div>
+        <div class="found min-max">
+            <p id="min"></p>
+            <p id="max"></p>
+        </div>
+
+        <div class="weather-details found">
+
+            <div class="card">
+                <img src="images/droplet.png" >
+                <div class="text">
+                    <p id="humidity"></p>
+                    <p>Humitdity</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/wind.png" >
+                <div class="text">
+                    <p id="wind"></p>
+                    <p>Wind</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/temp.png" >
+                <div class="text">
+                    <p id="feel">100</p>
+                    <p>Real Feel</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/gauge.png" >
+                <div class="text">
+                    <p id="pressure">100</p>
+                    <p>Pressure</p>
+                </div>
+            </div>
+        </div>
+       
+        <img style="display: none;" src="images/cloud.png">
+        <img style="display: none;" src="images/clear.png">
+        <img style="display: none;" src="images/rain.png">
+        <img style="display: none;" src="images/haze.png">
+        <img style="display: none;" src="images/snow.png">
+        <img style="display: none;" src="images/error.png">
+            
+
+
+
+
+    </div>
+    
+
+
+
+</body>
+<script src="app.js"></script>
+</html>

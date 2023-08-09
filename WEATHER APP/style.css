@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins';
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: white;
+   
+    
+    
+}
+body{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #171717;
+    display: flex;
+    flex-direction: column;
+    
+    width: 80%;
+    border-radius: 10px;
+    padding: 1.4rem;
+    max-width: 500px;
+}
+.search{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e1e1e; 
+    padding: 4px 10px;
+    border-radius: 10px;
+    align-self: center;
+    
+}
+input{
+
+    margin: 0 10px;
+    padding: 0px;
+    border: none;
+    outline: none;   
+    font-size: 1rem;
+    background: none;
+    
+}
+input::placeholder{
+    color: white;
+}
+
+.search button{
+    padding: 8px;
+    border: none;
+    border-radius: 50px;
+
+}
+.weather-info{
+    /* border: 2px red solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.weather-info img{
+    width: 80px;
+
+}
+.weather-info h1{
+   font-size: 2rem;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+#weather{
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    background-color: #1e1e1e;
+    font-size: 1.1rem;
+}
+#date{
+    font-weight: 400;
+    font-size: 15px;
+}
+#temp{
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+
+
+.min-max{
+    display: flex;
+    justify-content: center;
+}
+.min-max p{
+    margin: 0 1rem;
+    margin-top: 0.5rem;
+}
+
+
+.weather-details{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem;
+    margin-top: 2.5rem;
+
+    
+}
+
+.search img{
+    width: 20px;
+    height: 20px;
+    
+    
+}
+.card img{
+    width: 25px;
+    height: 25px;
+    margin-right: 0.5rem;
+}
+
+.found{
+    
+    scale: 0;
+
+}
+
+.not-found{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: none;
+}
+
+.card{
+    background-color: #1e1e1e;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+   
+}
+
+.not-found img{
+    width: 300px;
+    margin: 30px;
+}
+
+
+
+
+@media screen and (max-width: 468px){
+
+    body{
+        background-color: #171717;
+        align-items: flex-start;
+
+    }
+
+    .container{
+        
+
+        
+        width: 100vw;
+        height: 80vh;
+        margin: 0px;
+        border: 0px;
+        border-radius: 0;
+        
+    }
+   
+}
