@@ -165,6 +165,7 @@ input::placeholder{
         background-color: #171717;
         align-items: flex-start;
          width: 100vw;
+        height: auto;
 
     }
 
