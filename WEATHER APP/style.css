@@ -182,5 +182,12 @@ input::placeholder{
    input{
        width: 300px;
    }
+    .weather-details{
+    
+    display: grid;
+    grid-template-columns: none;
+
+    
+    }
    
 }
