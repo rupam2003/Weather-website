@@ -48,6 +48,7 @@ input{
     font-size: 1rem;
     background: none;
     
+    
 }
 input::placeholder{
     color: white;
@@ -178,6 +179,8 @@ input::placeholder{
         border-radius: 0;
         
     }
-   
+   input{
+       width: 300px;
+   }
    
 }
